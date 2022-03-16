@@ -1,22 +1,28 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomeComponent } from './components/home/home.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
+import { NavbarModule } from './@components/navbar/navbar.module';
+import { HeaderModule } from './@components/header/header.module';
+import { FooterModule } from './@components/footer/footer.module';
+import { CopyrightModule } from './@components/copyright/copyright.module';
+import { ContenidoModule } from './@components/contenido/contenido.module';
+import { ContactModule } from './@components/contact/contact.module';
+import { AboutModule } from './@components/about/about.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    HomeComponent,
-    NavbarComponent,
-    FooterComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    NavbarModule,
+    HeaderModule,
+    FooterModule,
+    CopyrightModule,
+    ContenidoModule,
+    ContactModule,
+    AboutModule
   ],
   providers: [],
   bootstrap: [AppComponent]

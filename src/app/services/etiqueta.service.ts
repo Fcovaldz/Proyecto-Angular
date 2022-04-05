@@ -8,6 +8,13 @@ export class EtiquetaService {
 
   private etiquetas = [
     {
+      nombre: "head",
+      descripcion: "El <head>elemento es un contenedor de metadatos (datos sobre datos) y se coloca entre la <html>etiqueta y la <body>etiqueta. Los metadatos HTML son datos sobre el documento HTML. Los metadatos no se muestran. Los metadatos suelen definir el título del documento, el conjunto de caracteres, los estilos, los scripts y otra metainformación.",
+      img: "../../assets/img/head.png",
+      funcion: "Provee información general (metadatos) acerca del documento, incluyendo su título y enlaces a scripts y hojas de estilos.",
+      uso: "El elemento HTML <head>es un contenedor para los siguientes elementos: <title>, <style>, <meta>, <link>, <script>y <base>."
+    },
+    {
       nombre: "header",
       descripcion: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro animi exercitationem esse provident modi voluptatem labore iusto magnam, dolor quia laborum laboriosam voluptas ea quod ullam voluptatum itaque. Architecto, esse?",
       img: "../../assets/img/descarga3.jpg",
@@ -27,13 +34,6 @@ export class EtiquetaService {
       img: "../../assets/img/descarga3.jpg",
       funcion: "Pie de pagina, contacto y enlace a mas contenido",
       uso: "Pie de Pagina"
-    },
-    {
-      nombre: "head",
-      descripcion: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro animi exercitationem esse provident modi voluptatem labore iusto magnam, dolor quia laborum laboriosam voluptas ea quod ullam voluptatum itaque. Architecto, esse?",
-      img: "../../assets/img/descarga3.jpg",
-      funcion: "Espacio para enlazar recursos externos como estilos y para definir codificacion",
-      uso: "enlazar recursos externos"
     },
     {
       nombre: "main",

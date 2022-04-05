@@ -174,23 +174,4 @@
     .contenido-item-caption-content {
     font-size: 1.5rem;
   }
-  .contenido-modal .contenido-modal-title {
-    font-size: 2.25rem;
-    line-height: 2rem;
-  }
-  @media (min-width: 992px) {
-    .contenido-modal .contenido-modal-title {
-      font-size: 3rem;
-      line-height: 2.5rem;
-    }
-  }
-  .contenido-modal .close {
-    position: absolute;
-    z-index: 1;
-    right: 1.5rem;
-    top: 1rem;
-    font-size: 3rem;
-    line-height: 3rem;
-    color: #1abc9c;
-    opacity: 1;
-  }
+  

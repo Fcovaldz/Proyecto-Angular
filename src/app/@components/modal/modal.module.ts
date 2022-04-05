@@ -1,16 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { CopyrightComponent } from './copyright.component';
+import { ModalComponent } from './modal.component';
 
 
 
 @NgModule({
   declarations: [
-    CopyrightComponent
+    ModalComponent
   ],
   imports: [
     CommonModule
-  ],
-  exports: [CopyrightComponent]
+  ]
 })
-export class CopyrightModule { }
+export class ModalModule { }

@@ -1,0 +1,11 @@
+<div class="col">
+    <div class="card text-dark bg-light" style="width: 18rem;">
+      <img [src]="etiqueta.img" class="card-img-top" [alt]="etiqueta.nombre">
+      <div class="card-body">
+        <h5 class="card-title">{{ etiqueta.nombre }}</h5>
+        <p class="card-text">{{ etiqueta.descripcion | substring:200 }}</p>
+        <p class="card-text"><small class="text-muted">Fecha de aparicion: {{ etiqueta.funcion }}</small></p>
+        <a [routerLink]="['/etiqueta', id]" class="btn btn-primary">Saber más...</a>
+      </div>
+    </div>
+  </div>

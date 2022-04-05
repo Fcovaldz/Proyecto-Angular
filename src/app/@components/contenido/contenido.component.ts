@@ -1,4 +1,7 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { EtiquetaService } from 'src/app/services/etiqueta.service';
+import { ModalComponent } from '../modal/modal.component';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-contenido',
@@ -7,9 +10,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContenidoComponent implements OnInit {
 
-  constructor() { }
+  etiquetas: any[] = [];
+  constructor(private activatedRoute: ActivatedRoute, private etiquetaService: EtiquetaService) { }
 
   ngOnInit(): void {
+    this.etiquetas = this.etiquetaService.getEtiquetas();
+    
+    
   }
+  
+
+
+  
 
 }

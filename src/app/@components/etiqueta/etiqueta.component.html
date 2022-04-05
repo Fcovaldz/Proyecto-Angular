@@ -1,0 +1,18 @@
+<h2>{{ etiqueta.nombre }} <small>({{ etiqueta.uso }})</small></h2>
+<h3 class="text-muted">Funcion: {{ etiqueta.funcion }}</h3>
+<hr>
+<div class="row">
+  <div class="col-md-4">
+    <img class="img-fluid" [src]="etiqueta.img" [alt]="etiqueta.nombre">
+    <div class="d-grid gap-2">
+      <a class="btn btn-info" [routerLink]="['/etiquetas']">Regresar...</a>
+    </div>
+  </div>
+  <div class="col-md-8">
+    <h3>{{ etiqueta.nombre }}</h3>
+    <p>
+      {{ etiqueta.descripcion }}
+    </p>
+
+  </div>
+</div>

@@ -1,11 +1,32 @@
 
-<section class="page-section contenido" id="contenido">
-  <div class="jumbotron container">
-    <h1>H T M L</h1>
-    <h2>Etiquetas basicas</h2>
-    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro animi exercitationem esse provident modi voluptatem labore iusto magnam, dolor quia laborum laboriosam voluptas ea quod ullam voluptatum itaque. Architecto, esse?</p>
-    <div class="d-grid gap-2">
-      <a class="btn btn-info text-white" href="etiquetas#section-etiquetas">Ir a las Etiquetas</a>
+     <app-title [title]="'Hyper Text Markup Language'" [dark]="true" [main]="false"></app-title>
+<section class="page-section contenido content-font" id="contenido">
+  <div class="jumbotron container bg-info ">
+    <p>El Lenguaje de Marcado de Hipertexto (HTML) es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Por ejemplo, sus contenidos podrían ser párrafos, una lista con viñetas, o imágenes y tablas de datos. Como lo sugiere el título, este artículo te dará una comprensión básica de HTML y cúal es su función.</p>
+    <p>Entonces, ¿qué es HTML en realidad?
+      HTML no es un lenguaje de programación; es un lenguaje de marcado que define la estructura de tu contenido. HTML consiste en una serie de elementos que usarás para encerrar diferentes partes del contenido para que se vean o comporten de una determinada manera. Las etiquetas de encierre pueden hacer de una palabra o una imagen un hipervínculo a otro sitio, se pueden cambiar palabras a cursiva, agrandar o achicar la letra, etc. Por ejemplo, toma la siguiente línea de contenido: </p>
+      <p>
+        <img class="img-fluid img-responsive centrar" src="../../../assets/img/mycat.png" alt="Example-html">
+        <br>
+        Si quieres especificar que se trata de un párrafo, podrías encerrar el texto con la etiqueta de párrafo (< p >):
+        <br><br>
+        <img class="img-fluid img-responsive centrar" src="../../../assets/img/cathtml.png" alt="Example-html">
+      </p>
+      <h3 class="text-center">
+        Anatomía de un elemento HTML
+      </h3>
+      <p class="text-center">
+        Explora este párrafo en mayor profundidad.
+        <br>
+        <img class="img-fluid img-responsive centrar" src="../../../assets/img/example-cat.png" alt="Example-html">
+        
+      </p>
+      <p class="text-center">
+        <a href="https://developer.mozilla.org/es/docs/Learn/Getting_started_with_the_web/HTML_basics" target="_blank">Mas Informacion...</a>
+      </p>
+      <div class="d-grid gap-2">
+      <h2 class="text-center">Etiquetas basicas</h2>
+      <a class="btn btn-primary text-white" href="etiquetas#section-etiquetas">Ir a las Etiquetas</a>
     </div>
   </div>
     <div class="container">
@@ -13,22 +34,22 @@
       <div class="row">
        
 <hr>
-<app-title [title]="'Estructura Basica'" [dark]="true" [main]="false"></app-title>
+<app-title [title]="'Estructura Basica'" [dark]="false" [main]="false"></app-title>
 <div class="row row-cols-1 row-cols-md-3 g-4 container">
 </div>
         <div class="col-md-6 col-lg-4">
           <div class="contenido-item mx-auto" >
-            <img class="img-fluid" src="../../../assets/img/descarga3.jpg" alt="">    
+            <img class="img-fluid img-responsive" src="../../../assets/img/descarga3.jpg" alt="">    
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="contenido-item mx-auto">
-            <img class="img-fluid" src="../../../assets/img/estructura_pagina_web.png" alt="">
+            <img class="img-fluid img-responsive" src="../../../assets/img/estructura_pagina_web.png" alt="">
           </div>
         </div>
         <div class="col-md-6 col-lg-4">
           <div class="contenido-item mx-auto">
-            <img class="img-fluid" src="../../../assets/img/estructurabody.jpg" alt="">
+            <img class="img-fluid img-responsive" src="../../../assets/img/estructurabody.jpg" alt="">
           </div>
         </div>
 

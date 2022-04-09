@@ -2,18 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { NavbarModule } from './@components/navbar/navbar.module';
-import { HeaderModule } from './@components/header/header.module';
-import { FooterModule } from './@components/footer/footer.module';
-import { ContenidoModule } from './@components/contenido/contenido.module';
-import { ContactModule } from './@components/contact/contact.module';
-import { AboutModule } from './@components/about/about.module';
 import { EtiquetasComponent } from './@components/etiquetas/etiquetas.component';
 import { EtiquetaComponent } from './@components/etiqueta/etiqueta.component';
 import { CardComponent } from './@components/card/card.component';
 import { BuscadorComponent } from './@components/buscador/buscador.component';
 import { SubstringPipe } from './pipes/substring.pipe';
 import { AppRoutingModule } from './app-routing.module';
+import { NavbarComponent } from './@components/navbar/navbar.component';
+import { HeaderComponent } from './@components/header/header.component';
+import { FooterComponent } from './@components/footer/footer.component';
+import { ContenidoComponent } from './@components/contenido/contenido.component';
+import { ContactComponent } from './@components/contact/contact.component';
+import { AboutComponent } from './@components/about/about.component';
+import { TitleModule } from './@widgets/title/title.module';
 
 @NgModule({
   declarations: [
@@ -24,18 +25,20 @@ import { AppRoutingModule } from './app-routing.module';
          CardComponent,
          BuscadorComponent,
          SubstringPipe,
+         NavbarComponent,
+         HeaderComponent,
+         FooterComponent,
+         ContenidoComponent,
+         ContactComponent,
+         AboutComponent,
          
 
     
   ],
   imports: [
     BrowserModule,
-    NavbarModule,
-    HeaderModule,
-    FooterModule,
-    ContenidoModule,
-    ContactModule,
-    AboutModule,
+    TitleModule,
+  
     AppRoutingModule
   ],
   providers: [],

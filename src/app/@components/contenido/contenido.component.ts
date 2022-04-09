@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { EtiquetaService } from 'src/app/services/etiqueta.service';
-import { ModalComponent } from '../modal/modal.component';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({

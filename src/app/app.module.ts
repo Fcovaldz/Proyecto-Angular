@@ -8,7 +8,6 @@ import { FooterModule } from './@components/footer/footer.module';
 import { ContenidoModule } from './@components/contenido/contenido.module';
 import { ContactModule } from './@components/contact/contact.module';
 import { AboutModule } from './@components/about/about.module';
-import { ModalModule } from './@components/modal/modal.module';
 import { EtiquetasComponent } from './@components/etiquetas/etiquetas.component';
 import { EtiquetaComponent } from './@components/etiqueta/etiqueta.component';
 import { CardComponent } from './@components/card/card.component';
@@ -34,7 +33,6 @@ import { AppRoutingModule } from './app-routing.module';
     NavbarModule,
     HeaderModule,
     FooterModule,
-    ModalModule,
     ContenidoModule,
     ContactModule,
     AboutModule,

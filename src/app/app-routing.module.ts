@@ -5,16 +5,14 @@ import { AboutComponent } from './@components/about/about.component';
 import { EtiquetaComponent } from './@components/etiqueta/etiqueta.component';
 import { NgModule } from '@angular/core';
 import { ContactComponent } from './@components/contact/contact.component';
-import { HeaderComponent } from './@components/header/header.component';
 
 const routes: Routes = [
     {path: 'about', component: AboutComponent},
     {path: 'contact', component: ContactComponent},
-    {path: 'header', component: HeaderComponent},
     {path: 'contenido', component: ContenidoComponent},
     {path: 'etiquetas', component: EtiquetasComponent},
     {path: 'etiqueta/:id', component: EtiquetaComponent},
-    {path: '**', pathMatch: 'full', redirectTo: 'etiquetas'}
+    {path: '**', pathMatch: 'full', redirectTo: 'contenido'}
 
 ];
 

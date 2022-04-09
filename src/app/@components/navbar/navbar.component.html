@@ -10,22 +10,27 @@
             
           </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLinkActive="active" [routerLink]="['/contenido']">INICIO</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" routerLinkActive="active" [routerLink]="['/contenido']">INICIO</a>
                 </li>
             
                   <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLinkActive="active" [routerLink]="['/etiquetas']">Etiquetas</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" routerLinkActive="active" [routerLink]="['/etiquetas']">Etiquetas</a>
                   </li>
                 
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLinkActive="active" [routerLink]="['/about']">Acerca de nosotros</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" routerLinkActive="active" [routerLink]="['/about']">Acerca de nosotros</a>
                 </li>
                 <li class="nav-item mx-0 mx-lg-1">
-                    <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" routerLinkActive="active" [routerLink]="['/contact']">Contacto</a>
+                    <a class="nav-link py-3 px-0 px-lg-3 rounded" routerLinkActive="active" [routerLink]="['/contact']">Contacto</a>
                 </li>
             </ul>
+            <div class="d-flex ml-auto">
+                <input #inputBuscar (keyup.enter)="buscarEtiqueta(inputBuscar.value)" class="form-control me-2" type="search" placeholder="Buscar..." aria-label="Search">
+                <button (click)="buscarEtiqueta(inputBuscar.value)" class="btn btn-outline-success " type="button">Buscar</button>
+            </div>
         </div>
     </div>
 </nav>

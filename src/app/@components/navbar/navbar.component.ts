@@ -12,5 +12,9 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  buscarEtiqueta(texto: string) {
+    if (texto.trim())
+      this.router.navigate(['/buscador', texto.trim()]);
+  }
 
 }

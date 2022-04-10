@@ -181,7 +181,49 @@ export class EtiquetaService {
       img: "assets/img/etiquetasul.png",
       funcion: " no produce significados diferentes si el orden de los ítems es alterado.  ",
       uso: "representa una lista no ordenada"
-    }
+    },
+    {
+      nombre: "a",
+      descripcion: " El elemento HTML Anchor <a> crea un enlace a otras páginas de internet, archivos o ubicaciones dentro de la misma página ",
+      img: "../../assets/img/etiquetaA.png",
+      funcion: " La etiqueta <a> es un hipervínculo, que se utiliza para enlazar de una página a otra..  ",
+      uso: "El elemento <a> es el atributo href, que indica el destino del enlace."
+      },
+      {
+      nombre: "aside",
+      descripcion: " El elemento HTML <aside> </aside> Dentro de estas etiquetas suele alojarse el contenido adicional de la web. No se muestra como algo especial en un navegador.",
+      img: "../../assets/img/aside.png",
+      funcion: " El elemento <aside> está diseñado para contener información adicional al documento que se visualiza.",
+      uso: "El elemento <aside> se  a menudo se coloca como una barra lateral en un documento. "
+      },
+      {
+        nombre: "strong",
+        descripcion: " La etiqueta <strong> se usa para definir texto con gran importancia. El contenido interior normalmente se muestra en negrita.",
+        img: "../../assets/img/strong.png",
+        funcion: " Se usa para resaltar el texto que queremos dar enfacis.",
+        uso: " Tambien tenemos la etiqueta <b> para especificar texto en negrita sin ninguna importancia adicional. "
+      },
+      {
+        nombre: "br",
+        descripcion: " La etiqueta br se utilizada para crear un salto de línea.",
+        img: "../../assets/img/br.png",
+        funcion: " Se usa para separar una linea de texto de la anterior.",
+        uso: " Tambien se usa la etiqueta <br> que es una etiqueta vacía, lo que significa que no tiene una etiqueta final. "
+      },
+      {
+        nombre: "audio",
+        descripcion: " La etiqueta <audio> se usa para incrustar contenido de sonido en un documento, como música u otras transmisiones de audio.",
+        img: "../../assets/img/audio.png",
+        funcion: "El texto entre las etiquetas <audio> y </audio> solo se mostrará en navegadores que no admitan el elemento <audio>.", 
+        uso: "Hay tres formatos de audio admitidos en HTML: MP3, WAV y OGG.r.",
+      },
+      {
+        nombre: "video",
+        descripcion: " La etiqueta <video> se usa para incrustar contenido de sonido en un documento, como música u otras transmisiones de audio.",
+        img: "../../assets/img/video.png",
+        funcion: "El texto entre las etiquetas <audio> y </audio> solo se mostrará en navegadores que no admitan el elemento <audio>.", 
+        uso: "Se usa para reproducir video en la página web junto a sus archivos de audio y capciones asociadas..",
+      }
     
   ];
 
